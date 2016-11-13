@@ -1,0 +1,110 @@
+.my_container {
+  padding-left: 2%;
+  margin-right: auto;
+  margin-left: auto;
+  width:95%;
+}
+.my_footer{
+  position: relative;
+  height:9%;
+  bottom:0;
+  width: 100%;
+
+}
+.my_nav {
+  padding-left: 0;
+  margin-bottom: 0;
+  /*margin-top: 0;*/
+  list-style: none;
+}
+
+.my_footer-list-item{  
+  /*padding-top: 1.5%;*/
+  /*display: table-cell;*/
+  height: 52px;
+  text-align: center;
+  font-size: 150%; 
+  padding: 10px 5px 5px 5px;
+  white-space: nowrap;
+  float:left;
+  border-right:2px solid rgb(237, 238, 239);
+
+}
+
+.my_footer-list-item:last-child{
+  border-right:none;
+}
+
+
+
+
+/* Smartphones  ----------- */
+
+@media only screen and (min-width: 240px) and (max-width: 600px){
+ 
+.my_footer-list-item{
+     /* display: block;*/
+      padding: 1%;
+      border-bottom: 2px solid rgb(237, 238, 239);
+      border-right:none;
+
+}
+
+.my_footer-list-item:last-child {
+  padding-top: 3%;
+  border-bottom: none;
+ 
+
+}
+
+.my_container {
+  padding-bottom: 2%;  
+  margin-bottom: 0px;
+  
+  }
+
+}
+
+
+
+/* Tablets , ipad  */
+ @media only screen and (min-width: 599px) and (max-width: 992px) {
+
+
+.my_footer-list-item{
+      /* display: block;*/  
+     /* padding: 1%;*/
+      border-bottom: 2px solid rgb(237, 238, 239);
+      border-right:none;
+     
+}
+
+.my_footer-list-item:last-child {
+ /* padding-top: 2%;*/
+  border-bottom: none;
+ 
+
+}
+
+.my_container {
+  padding-bottom: 2%;  
+  margin-bottom: 0px;
+  }
+
+}
+
+/* Desktops and laptops ----------- */
+@media only screen and (min-width: 993px) 
+{
+  .my_footer-list-item
+  {
+    
+  font-size: 150%;
+  /*display: table-cell;  */
+ /* padding: 10px 5px 5px 5px;*/
+  float:left;
+  border-right: 2px solid rgb(237, 238, 239);
+}
+}
+
+
